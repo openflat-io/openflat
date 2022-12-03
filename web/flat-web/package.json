@@ -2,6 +2,7 @@
   "name": "flat-web",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://openflat-io.github.io/openflat/",
   "scripts": {
     "start": "vite --open",
     "start:cn": "cross-env FLAT_REGION=CN pnpm start",
