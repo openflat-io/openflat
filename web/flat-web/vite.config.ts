@@ -42,7 +42,6 @@ export default defineConfig({
     },
     // cspell:ignore openflat
     base: "/openflat/",
-    publicDir: "/openflat/",
     build: {
         sourcemap: true,
     },
