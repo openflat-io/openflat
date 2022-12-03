@@ -40,6 +40,7 @@ export default defineConfig({
             { find: /^~/, replacement: "" },
         ],
     },
+    base: "/openflat/",
     build: {
         sourcemap: true,
     },
