@@ -40,8 +40,7 @@ export default defineConfig({
             { find: /^~/, replacement: "" },
         ],
     },
-    // cspell:ignore openflat
-    base: "/openflat/",
+    base: "./",
     build: {
         sourcemap: true,
     },
