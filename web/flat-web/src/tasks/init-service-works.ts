@@ -1,7 +1,7 @@
 const registerServiceWork = (): void => {
     if (navigator.serviceWorker && navigator.serviceWorker.register) {
         navigator.serviceWorker
-            .register("/worker.js")
+            .register("/openflat/worker.js")
             .then(_registration => {
                 console.log("registration finish");
             })
