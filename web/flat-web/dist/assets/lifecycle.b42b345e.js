@@ -1,0 +1,2 @@
+import{l as s}from"./index.85c5fa56.js";function f(){const e=s.exports.useRef(!1);return s.exports.useEffect(()=>()=>{e.current=!0},[]),e}function i(){const e=f();function n(o,t){return new Promise(async(u,c)=>{try{const r=await o;e.current||u(r)}catch(r){e.current?t?t(r):console.error("An error occurs from a promise after a component is unmounted",r):c(r)}})}return s.exports.useCallback(n,[e])}export{i as u};
+//# sourceMappingURL=lifecycle.b42b345e.js.map
