@@ -38,6 +38,5 @@ jobs:
 
       - name: Build and push images
         run: |
-          docker build . -f web/flat-web/deploy/Dockerfile -t leo-flat-web
-          docker push leo-flat-web
-          docker push leo-flat-web
+          docker build . -f web/flat-web/deploy/Dockerfile -t leooel/flat-web:v1
+          docker push leooel/flat-web:v1
