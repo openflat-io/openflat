@@ -41,7 +41,6 @@ export default defineConfig({
             { find: /^~/, replacement: "" },
         ],
     },
-    base: "./",
     build: {
         sourcemap: true,
     },
