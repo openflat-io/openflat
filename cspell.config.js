@@ -170,7 +170,7 @@ module.exports = {
         // esbuild config
         "metafile",
     ],
-    ignoreWords: ["openflat"],
+    ignoreWords: ["openflat", "leoflat"],
     flagWords: ["fuck", "bitch", "asshole", "bullshit", "crap", "suck", "wtf"],
     dictionaries: [
         "softwareTerms",
